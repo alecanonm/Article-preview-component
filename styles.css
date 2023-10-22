@@ -118,3 +118,27 @@ h3 {
 .attribution a {
   color: hsl(228, 9%, 44%);
 }
+
+@media (min-width: 800px) {
+  main {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    height: 390px;
+    margin: 0 15%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.4em;
+    line-height: 30px;
+  }
+
+  .share_media {
+    position: absolute;
+    transform: translate(120%, 300px);
+    border-radius: 20px;
+  }
+}
